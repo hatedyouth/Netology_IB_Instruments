@@ -13,6 +13,8 @@
 		660C5ADB275BF03E001EFB64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660C5AD9275BF03E001EFB64 /* Main.storyboard */; };
 		660C5ADD275BF03F001EFB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660C5ADC275BF03F001EFB64 /* Assets.xcassets */; };
 		660C5AE0275BF03F001EFB64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660C5ADE275BF03F001EFB64 /* LaunchScreen.storyboard */; };
+		660C5AE8275BF5E4001EFB64 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660C5AE7275BF5E4001EFB64 /* ProfileView.xib */; };
+		660C5AEA275BF75A001EFB64 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660C5AE9275BF75A001EFB64 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		660C5ADC275BF03F001EFB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		660C5ADF275BF03F001EFB64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		660C5AE1275BF03F001EFB64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660C5AE7275BF5E4001EFB64 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		660C5AE9275BF75A001EFB64 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				660C5ADC275BF03F001EFB64 /* Assets.xcassets */,
 				660C5ADE275BF03F001EFB64 /* LaunchScreen.storyboard */,
 				660C5AE1275BF03F001EFB64 /* Info.plist */,
+				660C5AE7275BF5E4001EFB64 /* ProfileView.xib */,
+				660C5AE9275BF75A001EFB64 /* ProfileView.swift */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660C5AE8275BF5E4001EFB64 /* ProfileView.xib in Resources */,
 				660C5AE0275BF03F001EFB64 /* LaunchScreen.storyboard in Resources */,
 				660C5ADD275BF03F001EFB64 /* Assets.xcassets in Resources */,
 				660C5ADB275BF03E001EFB64 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660C5AEA275BF75A001EFB64 /* ProfileView.swift in Sources */,
 				660C5AD8275BF03E001EFB64 /* ViewController.swift in Sources */,
 				660C5AD4275BF03E001EFB64 /* AppDelegate.swift in Sources */,
 				660C5AD6275BF03E001EFB64 /* SceneDelegate.swift in Sources */,
