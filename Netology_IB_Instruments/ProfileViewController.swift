@@ -8,16 +8,17 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    func showProfile() {
         view.backgroundColor = .systemPink
         let profileView = (Bundle.main.loadNibNamed("ProfileView", owner: self, options: nil)![0])
         self.view.addSubview(profileView as! ProfileView)
+        (profileView as! UIView).frame = self.view.bounds
     }
-    
-    
-    
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        showProfile()
+        //view.backgroundColor = .systemPink
+        //let profileView = (Bundle.main.loadNibNamed("ProfileView", owner: self, options: nil)![0])
+        //self.view.addSubview(profileView as! ProfileView)
+    }
 }
